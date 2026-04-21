@@ -1,12 +1,10 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Marlon Leal</title>
 </head>
-
 <body>
     <heater>
         <h1>Marlon Leal</h1>
@@ -16,14 +14,13 @@
                 <li><a href="#projeto">Projetos</a></li>
                 <li><a href="#contato">Contatos</a></li>
                 <li><a href="https://google.com.br/" target="_blank">Google</a></li>
-
+                
             </ul>
         </nav>
     </heater>
     <section id="sobre">
         <h2>Sobre mim</h2>
-        <img src="https://media.licdn.com/dms/image/v2/D4D03AQFzaa_EzuaV4A/profile-displayphoto-scale_400_400/B4DZ2tN_0AHYAg-/0/1776727623964?e=1778112000&v=beta&t=dynN9W3uEatKSKKf8eYNvdBJwrDFUK2XnHgcOfbZeag"
-            alt="Imagem de perfil">
+        <img src="https://media.licdn.com/dms/image/v2/D4D03AQFzaa_EzuaV4A/profile-displayphoto-scale_400_400/B4DZ2tN_0AHYAg-/0/1776727623964?e=1778112000&v=beta&t=dynN9W3uEatKSKKf8eYNvdBJwrDFUK2XnHgcOfbZeag" alt="Imagem de perfi">
         <article>
             <p>Eu me chamo Marlon, um baita programador!!!</p>
         </article>
@@ -37,22 +34,74 @@
         </aside>
     </section>
     <section id="projeto">
-
+    
         <h2>Projeto</h2>
         <article>
             <h3>Portfólio</h3>
             <p>Este foi meu primeiro projeto HTML</p>
         </article>
     </section>
-    <footer>
-        <section id="contato">
-            <h2>Contato</h2>
-            <address>
-                E-mail: <a href="mailto:marlonlealmml@gmail.com">marlonlealmml@gmail.com</a><br>
-                Telefone: <a href="tel:+5547999473920">+5547999473920</a>
-            </address>
-        </section>
-    </footer>
-</body>
+    <section id="habilidades"> 
+        <h2>Habilidades e Tecnologias</h2>  
+        <table>
+            <thead>
+                <tr>
+                    <th>Tecnologia</th>
+                    <th>Nível</th>
+                    <th>Descrição</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>HTML</td>
+                    <td>Iniciante</td>
+                    <td>Capaz de construir estruturas de páginas web sêmanticas e responsivas.</td>
 
+                </tr>
+                <tr>]
+                    <td>CSS</td>
+                    <td>Intermediário</td>
+                    <td>Experiência com flexbox, grid e animações CSS<td>
+
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>Básico</td>
+                    <td>Desenvolvimento de scripts do lado do cliente para interações</td>
+                    
+                </tr>
+            </tbody>
+        </table>
+
+    </section>
+<footer>
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Entre em contato</p>
+        <form action="">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required><br>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone" required><br>
+
+            <label for="assunto">Assunto:</label>
+            <select type="assunto" id="assunto" name="nome">
+                <option value="orcamento">Orçamento</option>
+                <option value="duvida">Dúvida</option>
+                <option value="outro">Outro</option>
+            </select><br>
+            <label for="mensagem">Mensagem:</label>
+            <textarea name="mensagem" id="mensagem" cols="20" rows="5"></textarea><br>
+            <input type="checkbox" id="inscricao" name="inscricao">
+            <label for="inscricao">Deseja ficar por dentro das novidades?</label><br>
+            <input type="submit" value="Enviar mensagem">
+
+        </form>
+    </section>
+</footer>
+</body>
 </html>
